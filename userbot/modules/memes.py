@@ -30,9 +30,9 @@ METOOSTR = [
     "`Bhai Bhai me too`",
     "`me too bhai BSDK :)`",
     "`Dil Vit it boi`",
-    "`Ja dekh jake Recaard me, Insaan hu ya Bhagwaan!`",
-    "`Bawaal cheez hai be, Saara system hiladia`",
-    "`Helpme, Bhai BSDK`",
+    "`Haha, same for me!`",
+    "`Metoo Gendu sar`",
+    "`Yeas, Bhai BSDK`",
 ]
 EMOJIS = [
     "😂",
@@ -187,7 +187,7 @@ RUNSREACTS = [
     "`Runs to pro RubyRox`",
     "`Runs far, far away from earth`",
     "`Running faster than supercomputer coz I'm RubyRox Frand`",
-    "`Runs to Rose`",
+    "`Runs to Thanos`",
     "`This Group is too kensurass to deal with.`",
     "`Cya bois`",
     "`I am a mad person. Plox Ban me.`",
@@ -195,7 +195,7 @@ RUNSREACTS = [
     "`I am just walking off, coz me is too smart.`",
     "`I Fugged off!`",
     "`Accha Chalta hu Duaon me yaad krha kthx bai`",
-    "`kthax bai`",
+    "`k thx bai`",
     "`I iz going to vanish soon Kek!`",
 ]
 RAPE_STRINGS = [
@@ -213,11 +213,11 @@ ABUSE_STRINGS = [
 	   "`Chutiya hi rah jayega`",
 	   "`Ja be Gaandu`",
 	   "`Ma ka Bhodsa madharchod`",
-	   "`mml`",
-	   "`You MotherFukcer`",
+	   "`mml bsdk`",
+	   "`You MadhaFakar`",
 	   "`Muh Me Lega Bhosdike ?`"
-	   "`Bhai BSDK`",
-	   "`Madarchod Bhsodike macchar ki jhaat gandu makichut teri, tatto ke saudagar`",
+	   "`Taali bajao Lawde ke liye`",
+	   "`Nikal Lode, pehli fursta me nikal`",
 	   "`Mene tere se bola madarchud?`",
 ]
 GEY_STRINGS = [
@@ -233,8 +233,8 @@ PRO_STRINGS = [
      "`This gey is pro as phack....... Muh m Lega Bsdk` 🙂",
      "`Pros here -_- Time to Leave`",
      "`What are you bsdk? Human or Gawd` (+_+)",
-     "`Oye peru gey, send moni pls`",
-     "`U iz pru & I iz nub`",
+     "`I smell a Pro Guy around me!`",
+     "`U iz pro but i iz ur DAD, KeK`",
      "`PROness Level : 696969`",
 ]
 ABUSEHARD_STRING = [
@@ -436,7 +436,7 @@ async def hacking (hacked):
     if not hacked.text[0].isalpha() and hacked.text[0] not in ("/", "#", "@", "!"):
         if await hacked.get_reply_message():
             await hacked.edit(
-                "`Targeted Account Hacked successfully 😎......`\n"
+                "`Targeted Account Hacked successfully 😎.....`\n"
                 "`Pay 6969$ to` @RubyRox `To Remove This Hack...`\n"
             )
 
